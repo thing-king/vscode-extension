@@ -21,7 +21,7 @@ function activate(context) {
 	const disposable = vscode.commands.registerCommand(
 		"vscode-extension.helloWorld",
 		function () {
-			// The code you place here will be executed every time your command is executed
+			// The code you place here will  be executed every time your command is executed
 
 			// Display a message box to the user
 			vscode.window.showInformationMessage("Hello World from Thingking!");
